@@ -2,8 +2,8 @@ import * as echarts from 'echarts'
 import type { EChartsOption } from 'echarts'
 
 // 注册中国地图
-import chinaJson from '../data/china.json'
-echarts.registerMap('china', chinaJson)
+// import chinaJson from '../data/china.json'
+// echarts.registerMap('china', chinaJson)
 
 export function useEcharts(domEl: HTMLElement, theme = 'light') {
   // 初始化echarts

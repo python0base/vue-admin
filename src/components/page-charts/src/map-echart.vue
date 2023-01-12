@@ -1,6 +1,6 @@
 <template>
   <div class="map-echart">
-    <base-echart :options="options"></base-echart>
+    <!-- <base-echart :options="options"></base-echart> -->
   </div>
 </template>
 
