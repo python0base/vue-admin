@@ -32,7 +32,7 @@
 <script setup lang="ts" name="panel">
 import { ref, watch } from 'vue'
 import PanelPhone from './panel-phone.vue'
-import type PanelAccount from './panel-account.vue'
+import PanelAccount from './panel-account.vue'
 import { localCache } from '@/utils/cache'
 
 const currentTab = ref('account')
